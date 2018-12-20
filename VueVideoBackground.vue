@@ -50,16 +50,13 @@ export default {
 
 <style lang="css" scoped>
   .background-vid {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      min-width: 100%;
-      min-height: 100%;
-      width: auto;
-      height: auto;
-      z-index: -100;
-      transform: translateX(-50%) translateY(-50%);
-      background-size: cover;
+    position: fixed; 
+    right: 0; 
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    background-size: cover;
+    z-index: -100;
   }
   .text-overlay {
     font-weight:100;
